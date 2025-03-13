@@ -1,7 +1,7 @@
 Minimal BitTorrent-Style Client
 
-This repository hosts a simplified BitTorrent-style client in C++. Its primary goal is to demonstrate modern C++ patterns, bencode parsing, and basic network concurrency with select(), rather than offering a fully functional BitTorrent client. That said, the code is structured in a way you can extend it to include additional features such as piece requests, tracker communication, or multi-peer handling.
-Key Highlights
+This repository hosts a simplified BitTorrent-style client in C++. 
+Key Highlights:
 
     Modern C++
         Uses std::unique_ptr, std::vector<std::uint8_t>, and custom exceptions instead of exit() or raw pointers.
