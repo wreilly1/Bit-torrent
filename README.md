@@ -39,8 +39,7 @@ Repository Structure
 
     bt_messages.h / bt_messages.cpp
         sendHandshakeAndGetResponse(...): A short placeholder handshake, returning whatever the peer sends back.
-        buildChokeMessage(), buildUnchokeMessage(), buildInterestedMessage(): Demonstrate how protocol messages can be formed (5 bytes each). Real clients would implement more message types (e.g. REQUEST, PIECE, etc.).
-
+        buildChokeMessage(), buildUnchokeMessage(), buildInterestedMessage(): Demonstrate how protocol messages can be formed (5 bytes each).
     main.cpp
         Ties everything together:
             Loads .torrent metadata with loadTorrentInfo(...).
